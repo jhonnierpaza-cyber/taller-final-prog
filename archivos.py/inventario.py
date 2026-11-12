@@ -1,6 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 dxfgfthmthctfcfjjggvgh
 =======
+=======
+>>>>>>> 30b55040d9eb27b6afa9d3109d33df6ee86e6d0f
 
 # ==========================================
 # MODULO DE INVENTARIO
@@ -153,5 +156,9 @@ def verificar_stock(productos):
     for codigo, datos in productos.items():
         if datos["activo"] and datos["stock"] <= datos["stock_minimo"]:
             productos_bajos[codigo] = datos.copy()
+<<<<<<< HEAD
     return productos_bajos
 >>>>>>> ea5ceffeaa3f3dc22acb53f693358bfe2e0a36b0
+=======
+    return productos_bajos
+>>>>>>> 30b55040d9eb27b6afa9d3109d33df6ee86e6d0f
